@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f8f8ff;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+
+header {
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 15px 0;
+    gap: 40px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background-color: rgb(164, 96, 252);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(164, 96, 252, 0.7);
+}
+
+
+.banner {
+    background: linear-gradient(135deg, rgb(164, 96, 252), rgb(93, 28, 184));
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.banner h1 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.8rem;
+}
+
+.banner h3 {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 1.3rem;
+    opacity: 0.9;
+    color: white;
+}
+
+
+.primero, .segundo {
+    margin: 40px auto;
+    width: 80%;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(93, 28, 184);
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-top: auto; 
+}
